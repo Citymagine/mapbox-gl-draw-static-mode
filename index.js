@@ -1,10 +1,10 @@
 (function (root, factory) {
   if ( typeof define === 'function' && define.amd ) {
-    define('something', factory(root));
+    define('MapboxDrawStaticMode', factory(root));
   } else if ( typeof exports === 'object' ) {
     module.exports = factory(root);
   } else {
-    root.something = factory(root);
+    root.MapboxDrawStaticMode = factory(root);
   }
 })(window || this, function (root) {
   return {
